@@ -1,0 +1,210 @@
+/********   whole site   *********/
+* {
+    font-family: 'Biryani', sans-serif;
+}
+body {
+  background-image: url('http://subtlepatterns.com/patterns/topography.png');
+  background-repeat: repeat;
+}
+
+/********   splash page   *********/
+.backgroundImg {
+    background: url('https://images3.alphacoders.com/808/80877.jpg') no-repeat center center fixed;
+    height: 70vh;
+    width: 100%;
+}
+
+#title {
+    font-weight: 900;
+    color: #dfdfda;
+    font-size: 15vmin;
+}
+
+#trip {
+    font-weight: 200;
+}
+
+.btnSplash {
+  font-size: 1.25em;
+  background-color: #dfdfda;
+  margin: 0 1em;
+}
+
+#btnSplash1 {
+  margin-left: -1em;
+}
+
+.center-block {
+    width: 100vw;
+    display: inline-block;
+    margin: 25vh auto;
+    text-align: center;
+}
+
+/*.center-block .input-group {
+    background-color: #dfdfda;
+    margin: auto;
+}*/
+
+
+/********   page two   *********/
+#logo2 {
+    font-weight: 900;
+    color: black;
+    margin-left: 2em;
+}
+
+#trip2 {
+    font-weight:300;
+    color: rgb(230, 178, 94);
+}
+
+.btn.btn-default.waypoint.btnPage2{
+  padding-left:10px;
+  padding-right:10px;
+  margin-left:10px;
+  margin-right:10px;
+}
+
+.btnPage2:hover,
+.btnPage2:active {
+  background-color: rgb(255, 217, 155);
+}
+
+/*#map {
+     margin: 1.25em 2em 1.25em 2em;
+    height: 50vh;
+    border-radius: 3px;
+}*/
+
+#sidePanel {
+    height: 50vh;
+    margin: .5em 2em 1.25em 2em;
+    background-color: rgba(184, 230, 163, 0.4);
+    padding: 1.5em;
+    border-radius: 3px;
+}
+
+#searchPanel {
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+#page2 {
+    height: 100vh;
+}
+
+/*#miles, #time, #gas {
+    padding: 8px 12px 6px 12px;
+    font-size: 16px;
+    border: 1px solid #828385;
+    border-radius: 3px;
+    color: #555;
+    background-color: #FFFFFF;
+    margin: 1em 0 0 0;
+}*/
+
+.navbar {
+    background-color: #e8eaeb;
+    border-bottom: .5px solid #828385;
+}
+
+/*.weather {
+  margin: 5em 2em 5em 4em;
+  border: none;
+  border-radius: 3px;
+  background-color: rgba(163, 204, 255, 0.5);
+  padding: 4em 2em;
+}*/
+
+.sideBorder {
+  border-right: .5px solid #7e7e7d
+}
+
+h3{
+  font-weight: 600;
+  text-align: center;
+}
+
+/*.weatherPic {
+  height: 2em;
+  margin: 8px;
+}*/
+
+/*#view-weather {
+  padding-left:10px;
+  padding-right:10px;
+  margin-top: 2em;
+  margin-left:10px;
+  margin-right:10px;
+  font-weight: 600;
+}*/
+
+/*#weather-btn {
+  height: 2em;
+}*/
+
+/*#view-weather:active,
+#view-weather:hover {
+    background-color: rgb(255, 217, 155);
+}*/
+
+/********   routes page   *********/
+
+/*.block-btn {
+    font-weight: 300;
+    font-size: 1em;
+    display: inline-block;
+    width: 8.5em;
+    margin: 1em auto;
+    background-color: #FFF;
+}
+
+.block-btn:active,
+.block-btn:hover {
+  background-color: rgb(255, 217, 155);
+}
+
+#block-btn-search {
+  width: 3.5em;
+  display: block;
+  margin: auto;
+}
+
+.photos {
+  margin: 3em;
+}*/
+
+/********   media queries   *********/
+
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width:992px) {
+  #map {
+      margin: 1.25em 2em 1.25em 4em;
+      height: 80vh;
+  }
+
+  #sidePanel {
+      height: 80vh;
+      margin: 1.24em 2em;
+      background-color: rgba(203, 230, 163, 0.4);
+      padding: 4em;
+  }
+
+  .block-btn {
+      font-weight: 300;
+      display: block;
+      width: 11em;
+      margin: 2.25em auto;
+      background-color: #FFF;
+  }
+
+  .backgroundImg {
+      height: 100vh;
+      width: 100%;
+  }
+
+ }
+
+/* Large devices (large desktops, 1200px and up) */
